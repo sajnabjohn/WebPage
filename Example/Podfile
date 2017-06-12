@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WebPage_Example' do
+  pod 'WebPage', :path => '../'
+
+  target 'WebPage_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
