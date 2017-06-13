@@ -1,12 +1,10 @@
 //
 //  AppDelegate.swift
 //  WebPage
-//
-//  Created by sajna.j on 06/12/2017.
-//  Copyright (c) 2017 sajna.j. All rights reserved.
-//
+
 
 import UIKit
+import WebPage
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

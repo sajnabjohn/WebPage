@@ -13,7 +13,6 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		8C6178C3E224AE912C1CD692 /* Pods_WebPage_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD56C33F936420214FE189A /* Pods_WebPage_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,10 +27,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		26E2678116C780B9E2BE252F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		26E2678116C780B9E2BE252F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2933F1E020131FED44E773AC /* Pods-WebPage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebPage_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebPage_Tests/Pods-WebPage_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2E5CB9D41E6EAE7BFBFA9533 /* Pods-WebPage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebPage_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebPage_Example/Pods-WebPage_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3CB789C3306DCE2CE67D14A3 /* WebPage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WebPage.podspec; path = ../WebPage.podspec; sourceTree = "<group>"; };
+		3CB789C3306DCE2CE67D14A3 /* WebPage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WebPage.podspec; path = ../WebPage.podspec; sourceTree = "<group>"; };
 		4FD56C33F936420214FE189A /* Pods_WebPage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebPage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B82A52E0C40AB1B98876782 /* Pods_WebPage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebPage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* WebPage_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebPage_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,7 +45,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6F737895FBF3B62E953BC580 /* Pods-WebPage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebPage_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebPage_Example/Pods-WebPage_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8C00E1A90DFE78A236BDBCE3 /* Pods-WebPage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebPage_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebPage_Tests/Pods-WebPage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C19BED61131038734CEE27C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C19BED61131038734CEE27C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,10 +214,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = M6ENXWGY3Q;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = M6ENXWGY3Q;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -370,7 +371,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +496,7 @@
 			baseConfigurationReference = 6F737895FBF3B62E953BC580 /* Pods-WebPage_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M6ENXWGY3Q;
 				INFOPLIST_FILE = WebPage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -510,6 +511,7 @@
 			baseConfigurationReference = 2E5CB9D41E6EAE7BFBFA9533 /* Pods-WebPage_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M6ENXWGY3Q;
 				INFOPLIST_FILE = WebPage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -523,6 +525,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8C00E1A90DFE78A236BDBCE3 /* Pods-WebPage_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = M6ENXWGY3Q;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -543,6 +546,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2933F1E020131FED44E773AC /* Pods-WebPage_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = M6ENXWGY3Q;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

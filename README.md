@@ -1,6 +1,6 @@
 
 # WebPage
-[![CI Status](http://img.shields.io/travis/sajna.j/WebPage.svg?style=flat)](https://travis-ci.org/sajna.j/WebPage)
+[![CI Status](http://img.shields.io/travis/sajnabjohn/WebPage.svg?style=flat)](https://travis-ci.org/sajnabjohn/WebPage)
 [![Version](https://img.shields.io/cocoapods/v/WebPage.svg?style=flat)](http://cocoapods.org/pods/WebPage)
 [![License](https://img.shields.io/cocoapods/l/WebPage.svg?style=flat)](http://cocoapods.org/pods/WebPage)
 [![Platform](https://img.shields.io/cocoapods/p/WebPage.svg?style=flat)](http://cocoapods.org/pods/WebPage)
@@ -18,7 +18,7 @@ pod "WebPage"
 ```
 ## Author
 
-sajna.j, sajna.j@teamta.in
+sajnabjohn, sajnajohn@gmail.com
 
 ## License
 

@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WebPage'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of WebPage.'
+  s.version          = '1.0.0'
+  s.summary          = 'WebPage simply help to load a we content with all the alerts intergated'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,15 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: WebPage simply help to load a we content with all the alerts intergated.
                        DESC
 
-  s.homepage         = 'https://github.com/sajna.j/WebPage'
+  s.homepage         = 'https://github.com/sajnabjohn/WebPage'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'sajna.j' => 'sajna.j@teamta.in' }
-  s.source           = { :git => 'https://github.com/sajna.j/WebPage.git', :tag => s.version.to_s }
+  s.author           = { 'sajnabjohn' => 'sajnajohn@gmail.com' }
+  s.source           = { :git => 'https://github.com/sajnabjohn/WebPage.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+
+    `echo "3.0" > .swift-version`
 
   s.ios.deployment_target = '8.0'
 

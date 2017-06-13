@@ -1,0 +1,16 @@
+PODS:
+  - WebPage (1.0.0)
+
+DEPENDENCIES:
+  - WebPage (from `../`)
+
+EXTERNAL SOURCES:
+  WebPage:
+    :path: ../
+
+SPEC CHECKSUMS:
+  WebPage: ce1351fd8ad64bd1c7d541972eaff2cbd97bab8a
+
+PODFILE CHECKSUM: c892b349121e6b2bd59f18316d3f1deb5eb6cba8
+
+COCOAPODS: 1.2.1
