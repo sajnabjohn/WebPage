@@ -5,7 +5,6 @@ target 'WebPage_Example' do
 
   target 'WebPage_Tests' do
     inherit! :search_paths
-
     
   end
 end
